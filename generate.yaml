@@ -6,8 +6,8 @@ openApiSpec: sdl.gql
 environmentSpec: Dev
 authMethod: none
 azureRateLimit:
-  noOfCalls: 23
-  renewalPeriod: 45
+  noOfCalls: 41
+  renewalPeriod: 41
   counter: ip-address
 corelation:
   correlationId: "true"
