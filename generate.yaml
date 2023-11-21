@@ -1,0 +1,11 @@
+---
+name: sdl
+description: gql File upload
+basePath: /gql/data
+openApiSpec: sdl.gql
+environmentSpec: Dev
+authMethod: none
+responseCache:
+  timeDuration: 45
+schemes: []
+routes: []
