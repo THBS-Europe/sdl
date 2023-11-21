@@ -5,9 +5,14 @@ basePath: /gql/data
 openApiSpec: sdl.gql
 environmentSpec: Dev
 authMethod: none
+azureRateLimit:
+  noOfCalls: 23
+  renewalPeriod: 45
+  counter: ip-address
 responseCache:
-  timeDuration: 41
+  timeDuration: 23
 corelation:
   correlationId: "true"
+  trace: "true"
 schemes: []
 routes: []
