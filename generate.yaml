@@ -4,15 +4,14 @@ description: gql File upload
 basePath: /gql/data
 openApiSpec: sdl.gql
 environmentSpec: Dev
+type: API
 authMethod: none
-azureRateLimit:
-  noOfCalls: 23
-  renewalPeriod: 45
-  counter: ip-address
 responseCache:
   timeDuration: 23
+  cachepolicy: product
 corelation:
   correlationId: "true"
   trace: "true"
+  correlationpolicy: api
 schemes: []
 routes: []
