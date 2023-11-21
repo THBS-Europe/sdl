@@ -5,7 +5,8 @@ basePath: /gql/data
 openApiSpec: sdl.gql
 environmentSpec: Dev
 authMethod: none
-responseCache:
-  timeDuration: 45
+corelation:
+  correlationId: "true"
+  trace: "true"
 schemes: []
 routes: []
