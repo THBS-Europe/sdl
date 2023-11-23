@@ -6,12 +6,20 @@ openApiSpec: sdl.gql
 environmentSpec: Dev
 type: API
 authMethod: none
-responseCache:
-  timeDuration: 23
-  cachepolicy: product
+azureRateLimit:
+  noOfCalls: 34
+  renewalPeriod: 34
+  ratepolicy: api
+  counter: ip-address
 corelation:
   correlationId: "true"
-  trace: "true"
   correlationpolicy: api
+allowedOrigins:
+  origins: https://gitlab.com/
+  creds: "false"
+  methods: "get,post"
+  allowHeaders: content-type
+  exposeHeaders: Content-Length
+  maxSeconds: 34
 schemes: []
 routes: []
